@@ -9,11 +9,11 @@ pizza = 35.00
 suco = 8.00
 print('{:->40}'.format(' '))
 if(pedido.lower() == 'pizza'):
-    print('Olá, {}! Você pediu {} -- R$35.00'.format(nome, pedido))
+    print('Olá, {}! Você pediu {} -- R${:.2f}'.format(nome, pedido,pizza))
 elif(pedido.lower() ==  'x-burguer' or pedido.lower() == 'xburguer'):
-    print('Olá, {}! Você pediu {} -- R$18.00'.format(nome, pedido))
+    print('Olá, {}! Você pediu {} -- R${:.2f}'.format(nome, pedido,xburguer))
 elif(pedido.lower() == 'suco'):
-    print('Olá, {}! Você pediu {} -- R$8.00'.format(nome, pedido))
+    print('Olá, {}! Você pediu {} -- R${:.2f}'.format(nome, pedido,suco))
 else:
     print('Error: digite como mostra o cardapio. xburguer, pizza ou suco')
 
