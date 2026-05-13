@@ -18,18 +18,22 @@ while True:
     elif(operacao == 2):
         print('{:=>8} SAQUE {:=<8}'.format(' ', ' '))
         saque = float(input('Valor do saque: R$ '))
-        saldo_atual -= saque
-        saque_realizado += saque
-        extrato_atual += 1
-        print(f'Saque realizado! Saldo: R$ {saldo_atual:.2f}')
+        if(saque <= saldo_atual):
+           saldo_atual -= saque
+           saque_realizado += saque
+           extrato_atual += 1
+           print(f'Saque realizado! Saldo: R$ {saldo_atual:.2f}')
+        else:
+           print(f'Saldo insuficiente: Saldo atual: {saldo_atual:.2f}')
         print('{:=>26}'.format(' '))
+
     # ---------------- EXTRATO ---------------
     elif(operacao == 3):
         print('{:=>8} Extrato {:=<8}'.format(' ',' '))
         print(f'Saque realizado! - R$ {saque_realizado:.2f}')
         print(f'Deposito realizado! + R$ {deposito_realizado:.2f}')
         print('{:->26}'.format(' '))
-        print(f'Total de transações: {extrato_atual}\nSaldo atual: {saldo_atual:.2f}')
+        print(f'Total de transações: {extrato_atual}\nSaldo atual: R$ {saldo_atual:.2f}')
         print('{:=>26}'.format(' '))
     else:
         break
