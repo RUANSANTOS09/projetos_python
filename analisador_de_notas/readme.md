@@ -23,7 +23,7 @@ Nota do aluno Maria: 4.5
 
 ===== RELATORIO =====
 Ana - 8.5 - Aprovado
-Joao - 6.0 - Recuperacao
+Joao - 6.1 - Recuperacao
 Maria - 4.5 - Reprovado
 ```
 

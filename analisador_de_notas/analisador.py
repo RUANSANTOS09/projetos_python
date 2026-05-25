@@ -1,6 +1,6 @@
 alunos = []
 conta_alunos = 0
-quantidade_alunos = int(input('Quantos alunos tem na turma? '))
+quantidade_alunos = int(input('Quantos alunos tem na sua turma? '))
 while conta_alunos <= quantidade_alunos - 1:
     conta_alunos += 1
     nome_aluno = str(input(f'Nome do aluno {conta_alunos}: '))
