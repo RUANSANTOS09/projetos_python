@@ -1,21 +1,21 @@
-alunos = []
-conta_alunos = 0
-quantidade_alunos = int(input('Quantos alunos tem na sua turma? '))
-while conta_alunos <= quantidade_alunos - 1:
-    conta_alunos += 1
-    nome_aluno = str(input(f'Nome do aluno {conta_alunos}: '))
-    nota_aluno = float(input(f'Nota do aluno {nome_aluno}: '))
-    tupla = (nome_aluno, nota_aluno)
-    alunos.append(tupla)
+students = []
+number_of_students = 0
+student_quantity = int(input('Quantos alunos tem na sua turma? '))
+while number_of_students <= student_quantity - 1:
+    number_of_students += 1
+    student_name = str(input(f'Nome do aluno {number_of_students}: '))
+    student_note = float(input(f'Nota do aluno {student_name}: '))
+    tuple = (student_name, student_note)
+    students.append(tuple)
 print('===== RELATÓRIO =====')
-for aluno in alunos:
-    nome, nota = aluno
-    if(nota >= 7):
-        print(f'{nome} - {nota} - Aprovado')
-    elif(nota >= 5 and nota < 7):
-        print(f'{nome} - {nota} - Recuperação')
+for student in students:
+    name, notes = student
+    if(notes >= 7):
+        print(f'{name} - {notes} - Aprovado')
+    elif(notes >= 5 and notes < 7):
+        print(f'{name} - {notes} - Recuperação')
     else:
-        print(f'{nome} - {nota} -Reprovado')
+        print(f'{name} - {notes} -Reprovado')
 
 
 
