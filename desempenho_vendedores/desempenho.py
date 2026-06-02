@@ -1,6 +1,7 @@
 total_team = 0
 highlight_of_the_month = ''
 more_sales = 0
+
 fixed_goals = (3000,5000)
 minimum_goal,ideal_goal = fixed_goals
 
