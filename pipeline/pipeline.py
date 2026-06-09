@@ -1,3 +1,4 @@
+
 def clean_sale(val):
     valid_values = []
     for number in val:
@@ -15,7 +16,6 @@ def remove_duplicates(val2):
 
 unique_sales = remove_duplicates(clean)
 print(unique_sales)
-
 
 
 
