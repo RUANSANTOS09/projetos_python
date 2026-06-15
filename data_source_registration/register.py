@@ -15,8 +15,6 @@ while True:
                 else:
                     repository_sources.append(name)
                     return name
-
-
             try:
                 adding_data_source = str(input('Digite o nome da fonte de dados: '))
                 if not adding_data_source:
@@ -31,8 +29,6 @@ while True:
         elif (menu == 2):
             def registered_sources(repository_sources):
                 return repository_sources
-
-
             try:
                 display_registered_sources = registered_sources(repository_sources)
                 if not display_registered_sources:
@@ -63,8 +59,6 @@ while True:
         elif (menu == 4):
             def remove_source(source):
                 return source
-
-
             try:
                 removing_source = str(input('Digite o nome da fonte que deseja remover: '))
                 remove_results = remove_source(removing_source)
