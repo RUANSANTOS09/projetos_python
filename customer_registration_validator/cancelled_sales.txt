@@ -1,0 +1,5 @@
+2: CANCELADA: Mouse - R$ 50
+4: CANCELADA: Monitor - R$ 800
+6: CANCELADA: Headset - R$ 200
+
+Vendas canceladas: 3
