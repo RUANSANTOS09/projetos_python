@@ -1,0 +1,6 @@
+CONFIRMADA: Notebook - R$ 2500
+CANCELADA: Mouse - R$ 50
+CONFIRMADA: Teclado - R$ 120
+CANCELADA: Monitor - R$ 800
+CONFIRMADA: Webcam - R$ 150
+CANCELADA: Headset - R$ 200
