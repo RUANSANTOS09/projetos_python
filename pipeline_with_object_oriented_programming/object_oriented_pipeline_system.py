@@ -10,7 +10,7 @@ class Sourcedata:
         return self.__total_records
 
     def set_add_records(self,qtd):
-        self.__total_records+= qtd
+        self.__total_records += qtd
 
     def status(self):
         return f'{self.get_name()}: {self.get_total_records()} registros processados'
