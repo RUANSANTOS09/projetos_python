@@ -1,0 +1,5 @@
+2: ERRO: Falha ao conectar no banco
+4: ERRO: Timeout na requisição
+6: ERRO: Registro inválido encontrado
+
+Quantidade de erros: 3

@@ -1,0 +1,6 @@
+INFO: Sistema iniciado
+ERRO: Falha ao conectar no banco
+INFO: Processando arquivo
+ERRO: Timeout na requisição
+INFO: Processamento concluído
+ERRO: Registro inválido encontrado
