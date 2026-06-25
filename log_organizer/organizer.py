@@ -3,7 +3,7 @@ error = 0
 logs = [
     'INFO: Sistema iniciado\n',
     'ERRO: Falha ao conectar no banco\n',
-    'INFO: Processando arquivo\n',
+    'INFO: Processando arquivo.\n',
     'ERRO: Timeout na requisição\n',
     'INFO: Processamento concluído\n',
     'ERRO: Registro inválido encontrado\n'
